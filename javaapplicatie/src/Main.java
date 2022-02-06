@@ -17,7 +17,11 @@ public class Main {
         System.out.print("Please give the first value b: ");
         int b = Integer.parseInt( scanner.nextLine() );
 
+        // Use the method sum
         System.out.println(a + " + " + b + " = " + sum(a, b));
+
+        // Use the method mul
+        System.out.println(a + " * " + b + " = " + mul(a, b));
     }
 
     // Method returns the interger sum of two integers.
@@ -25,4 +29,11 @@ public class Main {
         int sum = a + b;
         return sum;
     }
+
+    // Method returns the interger sum of two integers.
+    static int mul( int a, int b ) {
+        int mul = a * b;
+        return mul;
+    }
+
 }
