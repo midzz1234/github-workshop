@@ -24,7 +24,7 @@ public class Main {
         System.out.println(a + " * " + b + " = " + mul(a, b));
     }
 
-    // Method returns the interger sum of two integers.
+    // Method returns the integer sum of two integers.
     static int sum( int a, int b ) {
         int sum = a + b;
         return sum;

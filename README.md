@@ -6,7 +6,6 @@ Samen software ontwikkelen is dan ook best lastig. Om dit goed te doen is een ve
 # Doelstelling
 Het ontwerpen van de GitHub workshop dat het écht een workshop wordt, waarbij studenten zich voorbereiden en tijdens de workshop aan de slag gaan met een casus. Tevens zorgen voor geen “overload” voor de studenten.
 
-
 # Leerdoel
 Je werkt met git aan het ontwikkelen van softwareopdrachten en gebruikt hierbij guthub.com en Git(Kraken), zodanig dat je het Git versiebeheersysteem zonder problemen in de proftaak kan toepassen.
  
@@ -17,3 +16,4 @@ Dit leerdoel wordt bereitk door een goede voorbereiding en het meedoen aan de wo
 2.	Working flow Git! – Je past de werkwijze van versiebeheer toe tijdens het uitwerken van de workshopopdrachten, zodanig dat je binnen de deze gestructureerde werkwijze correct kan toepassen.
 3.	Working together with Git! – Met de proftaakgroep zet je samen de werkwijze en git repository op, zodanig dat je samen gestructureerd kan werken aan de software.
 
+Succes!
