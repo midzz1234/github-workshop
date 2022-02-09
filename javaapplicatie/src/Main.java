@@ -1,9 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    static List<CalculationInterface> calculations;
 
     // Main method that is invoked when the application is started
     public static void main(String[] args) {
+        // Initialize the static variable calculations
+        calculations = new ArrayList<>();
+
+        // Add all the required calculations to the array
+        calculations.add(new Summation());
+        calculations.add(new Multiplication());
+
+        // Start the user interface of the application
         startUserInterface();
     }
 
@@ -17,23 +28,9 @@ public class Main {
         System.out.print("Please give the first value b: ");
         int b = Integer.parseInt( scanner.nextLine() );
 
-        // Use the method sum
-        System.out.println(a + " + " + b + " = " + sum(a, b));
-
-        // Use the method mul
-        System.out.println(a + " * " + b + " = " + mul(a, b));
+        // Show all the calculations
+        for ( CalculationInterface calc : calculations ) {
+            System.out.println(a + " " + calc.symbol() + " " + b + " = " + calc.calculate(a, b));
+        }
     }
-
-    // Method returns the integer sum of two integers.
-    static int sum( int a, int b ) {
-        int sum = a + b;
-        return sum;
-    }
-
-    // Method returns the interger sum of two integers.
-    static int mul( int a, int b ) {
-        int mul = a * b;
-        return mul;
-    }
-
 }
